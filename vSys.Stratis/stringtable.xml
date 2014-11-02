@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Project name="VSYS"> 
+    <Package name="VSYS"> 
+        <Container name="Text"> 
+
+            <Key ID="STR_VSYS_HEADER"> 
+                <Original>VSYS</Original> 
+                <English>VSYS</English> 
+                <Dutch>VSYS</Dutch>
+                <Czech>VSYS</Czech> 
+                <French>VSYS</French> 
+                <German>VSYS</German> 
+                <Italian>VSYS</Italian> 
+                <Polish>VSYS</Polish> 
+                <Portuguese>VSYS</Portuguese> 
+                <Russian>VSYS</Russian> 
+                <Spanish>VSYS</Spanish> 
+            </Key> 
+
+            <Key ID="STR_VSYS_ENABLECREW"> 
+                <Original>Enable Crew:</Original> 
+                <English>Enable Crew:</English> 
+                <Dutch>Activeer:</Dutch>  
+                <Czech>Povolit posádku:</Czech> 
+                <French>Equipage actif:</French> 
+                <German>Besatzung aktivieren:</German> 
+                <Italian>Abilita Crew:</Italian> 
+                <Polish>Z załogą:</Polish>  
+                <Portuguese>Habilitar Tripulação:</Portuguese> 
+                <Russian>С экипажем:</Russian> 
+                <Spanish>Habilitar Tripulación:</Spanish> 
+            </Key> 
+			
+			<Key ID="STR_VSYS_FLYING"> 
+                <Original>Flying:</Original> 
+                <English>Flying:</English> 
+                <Dutch>vliegend:</Dutch>  
+                <Czech>létající:</Czech> 
+                <French>Volant:</French> 
+                <German>Fliegt:</German>  
+                <Italian>d volo:</Italian> 
+                <Polish>W locie:</Polish> 
+                <Portuguese>Voador:</Portuguese> 
+                <Russian>В воздухе:</Russian> 
+                <Spanish>el volar:</Spanish> 
+            </Key> 
+
+			<Key ID="STR_VSYS_GETIN"> 
+                <Original>Get In:</Original> 
+                <English>Get In:</English> 
+                <Dutch>gekozen worden:</Dutch>  
+                <Czech>nasednout:</Czech> 
+                <French>entrer dans:</French> 
+                <German>Einsteigen:</German> 
+                <Italian>entrare:</Italian> 
+                <Polish>Wsiądź:</Polish>  
+                <Portuguese>entrar:</Portuguese> 
+                <Russian>Занять:</Russian> 
+                <Spanish>lograr dar:</Spanish> 
+            </Key> 
+			
+			<Key ID="STR_VSYS_TOOLTIP_GETIN"> 
+                <Original>Move into first available vehicle position upon creation</Original> 
+                <English>Move into first available vehicle position upon creation</English> 
+                <Dutch>Verhuizen naar de eerste beschikbare positie van het voertuig over de schepping</Dutch>  
+                <Czech>Přesuňte se na první volnou pozici vozidla při vytvoření</Czech> 
+                <French>Prendre la première disponible position du véhicule lors de la création</French> 
+                <German>Bei Erstellung in ersten verfügbaren Fahrzeugsitz einsteigen</German>  
+                <Italian>Spostatevi nella prima posizione del veicolo disponibili al momento della creazione</Italian> 
+                <Polish>Zajmij w utworzonym pojeździe pierwsze dostępne miejsce</Polish> 
+                <Portuguese>Mover para a primeira posição veículo disponível no momento da criação</Portuguese> 
+               <Russian>Занять первое доступное место транспортного средства после создания</Russian> 
+                <Spanish>Mover a la primera posición del vehículo disponibles a la creación</Spanish> 
+            </Key> 
+			
+			<Key ID="STR_VSYS_TOOLTIP_CREW"> 
+                <Original>Spawn the vehicle with an active crew</Original> 
+                <English>Spawn the vehicle with an active crew</English> 
+                <Dutch>Paaien het voertuig met een actieve crew</Dutch>  
+                <Czech>Plodit vozidlo s aktivním posádkou</Czech> 
+                <French>Frayer le véhicule avec un équipage actif</French> 
+                <German>Fahrzeug mit aktiver Besatzung erstellen</German>  
+                <Italian>Spawn il veicolo con un equipaggio attiva</Italian> 
+                <Polish>Stwórz pojazd obsadzony załogą</Polish>  
+                <Portuguese>Desovar o veículo com uma equipe ativa</Portuguese> 
+                <Russian>Создать транспортное средство, занятое экипажем</Russian>
+                <Spanish>Desovar el vehículo con un equipo activo</Spanish> 
+            </Key> 
+			
+			<Key ID="STR_VSYS_TOOLTIP_FLYING"> 
+                <Original>Spawn the vehicle already flying ( aircraft only )</Original> 
+                <English>Spawn the vehicle already flying ( aircraft only )</English> 
+                <Dutch>Paaien het voertuig al vliegen (vliegtuigen alleen)</Dutch>  
+                <Czech>Plodit vozidlo již létání (pouze letadla)</Czech> 
+                <French>Spawn l'engin volant déjà (avion seulement)</French> 
+                <German>Fahrzeug im Flug erstellen ( nur Luftfahrzeuge )</German> 
+                <Italian>Genera il veicolo già in volo (aeromobili solo)</Italian> 
+                <Polish>Stwórz pojazd w locie (tylko latające)</Polish>  
+                <Portuguese>Desovar o veículo já voando (aeronaves apenas)</Portuguese> 
+                <Russian>Создать транспортное средство в воздухе (только для воздушных)</Russian> 
+                <Spanish>Generar el vehículo ya volar (sólo las aeronaves)</Spanish> 
+            </Key> 
+			
+            <!-- You've requested an ( vehicle's display name ). ETA: 30sec -->
+            <Key ID="STR_VSYS_REQUESTED"> 
+                <Original>You've requested an %1. ETA: %2sec</Original> 
+                <English>You've requested an %1. ETA: %2sec</English>
+                <Dutch>Je hebt gevraagd om een %1. ETA: %2sec</Dutch>                
+                <Czech>Ty jsi požádal o %1. ETA: %2 sec</Czech> 
+                <French>Vous avez demandé un %1. ETA: %2sec</French> 
+                <German>Du hast einen %1 angefordert. ETA: %2sec</German> 
+                <Italian>Hai richiesto una %1. ETA: %2sec</Italian> 
+                <Polish>Zamówiłeś %1. Czas realizacji: %2s</Polish> 
+                <Portuguese>Você requisitou %1. TEC: %2sec</Portuguese> 
+                <Russian>Вы запросили %1. Готовность %2 с</Russian>
+                <Spanish>Has solicitado un %1. ETA: %2sec</Spanish>  
+            </Key> 
+
+            <!-- You've cancelled building the ( vehicle's display name ) -->
+            <Key ID="STR_VSYS_CANCELED"> 
+                <Original>You've cancelled building the %1</Original> 
+                <English>You've cancelled building the %1</English>
+                <Dutch>Het bouwen van %1 is geannuleerd</Dutch>                
+                <Czech>bouwen van %1 is geannuleerd</Dutch>                
+                <Czech>Vy jste zrušili stavění %1</Czech> 
+                <French>Vous avez annulé la creation de %1</French> 
+                <German>Du hast den Bau eines %1 abgebrochen</German> 
+                <Italian>Hai annullato la costruzione del %1</Italian> 
+                <Polish>Anulowałeś konstrukcję %1</Polish> 
+                <Portuguese>Você cancelou a construção de %1</Portuguese> 
+                <Russian>Вы отменили создание %1</Russian> 
+                <Spanish>Has cancelado la construcción de %1</Spanish>  
+            </Key>     
+
+            <!-- Your ( vehicle's display name ) has been built. -->
+            <Key ID="STR_VSYS_BUILT"> 
+                <Original>Your %1 has been built.</Original> 
+                <English>Your %1 has been built.</English> 
+                <Dutch>Je %1 is gebouwd.</Dutch>
+                <Czech>Váš %1 byl postaven.</Czech> 
+                <French>Votre %1 a été construit.</French> 
+                <German>Dein %1 wurde erfolgreich erbaut.</German>  
+                <Italian>vostro %1 è stato costruito.</Italian> 
+                <Polish>Skonstruowano %1.</Polish> 
+                <Portuguese>Seu %1 foi construido.</Portuguese> 
+                <Russian>Транспортное средство %1 создано.</Russian> 
+                <Spanish>Tu %1 fue construido.</Spanish>  
+            </Key>     
+
+            <Key ID="STR_VSYS_CREATE"> 
+                <Original>Create</Original> 
+                <English>Create</English>
+                <Dutch>Maak</Dutch> 
+                <Czech>Vytvořit</Czech> 
+                <French>Créer</French> 
+                <German>Erstellen</German>  
+                <Italian>creare</Italian> 
+                <Polish>Stwórz</Polish>  
+                <Portuguese>Criar</Portuguese> 
+                <Russian>Создать</Russian> 
+                <Spanish>crear</Spanish> 
+            </Key> 
+
+            <Key ID="STR_VSYS_CANCEL"> 
+                <Original>Cancel</Original> 
+                <English>Cancel</English> 
+                <Dutch>Annuleer</Dutch>
+                <Czech>Ukončit</Czech> 
+                <French>Annuler</French> 
+                <German>Abbrechen</German> 
+                <Italian>annullare</Italian> 
+				<Polish>Anuluj</Polish> 
+                <Portuguese>Cancelar</Portuguese> 
+                <Russian>Отменить</Russian> 
+                <Spanish>Cancelar</Spanish> 
+            </Key>                                     
+
+        </container>
+    </Package> 
+</Project>

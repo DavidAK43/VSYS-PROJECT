@@ -1,0 +1,6 @@
+#include "VSYS\resources\defines.hpp"
+
+class CfgFunctions 
+{
+    #include "VSYS\functions\functions.hpp"
+};  
